@@ -1,0 +1,13 @@
+
+
+@import "Sass/color";
+@import "Sass/size";
+
+.testament{
+  color:$Color_Title_2 ;
+  @media (max-width: 575px) {
+
+    color: $color_black;
+  }
+  font-size: $Size_text;
+}

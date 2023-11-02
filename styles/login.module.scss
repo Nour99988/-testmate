@@ -1,0 +1,55 @@
+@import "Sass/color";
+@import "Sass/size";
+
+
+
+
+
+
+
+
+.content_login {
+
+
+  .style_login {
+
+    margin-top: 40px;
+    padding: 20px 20px 50px 20px;
+    box-shadow: rgb(76 76 76 / 48%) 6px 2px 16px 0px;
+    background-color: $Color_Basic_1;
+    @media (max-width: 575px) {
+
+      padding: 10px;
+    }
+
+    .style_title {
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: $Size_Title;
+      color: $Color_Title_2;
+      @media (max-width: 575px) {
+        font-size: $Size_Title_Mobile
+      }
+
+    }
+
+    .register {
+      font-size: $Size_text;
+      padding-bottom: 10px;
+      color: $Color_Title_2;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      &:hover{
+        color:#1565c0
+      }
+    }
+    svg{
+      padding-left:4px;
+      font-size:20px
+    }
+
+  }
+
+}
+

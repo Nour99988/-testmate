@@ -1,0 +1,56 @@
+
+@import "Sass/color";
+@import "Sass/size";
+.page_how_to_use{
+  padding-top: 30px;
+  padding-bottom: 20px;
+background-color: #22262F;
+
+  p,span,li{
+   //color:$color_grey-3 ;
+    font-size: $Size_text;
+
+    color: $Color_Title_2;
+    letter-spacing: .5px;
+    line-height: 1.8;
+  }
+  h1,h2{
+    font-size: $Size_Title;
+    color: $Color_Title_2;
+    @media (max-width: 575px) {
+      font-size: $Size_Title_Mobile;
+    }
+  }
+  svg{
+    font-size: 40px;
+    color: white;
+  }
+  ul{
+
+    li{
+      list-style: none;
+      line-height: 2;
+    }
+  }
+
+  .box_using{
+
+    background:$Color_Basic_6;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 200px;
+
+    &:hover{
+      background-color: $Color_Basic_3;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+  .mode{
+    margin: 50px 0;
+    img{
+      width: 100%;
+    }
+  }
+}

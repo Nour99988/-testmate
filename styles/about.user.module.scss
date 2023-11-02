@@ -1,0 +1,65 @@
+@import "styles/Sass/color";
+
+@import "styles/Sass/size";
+
+.content_about_user {
+
+
+  .box_info_vote {
+    background: $Color_Basic_5;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+
+    .warning {
+      font-size: $Size_text;
+      color: $Color_Title_2;
+      line-height: 29px;
+
+
+    }
+
+    .btn {
+      background-color: $Color_Basic_3;
+
+
+    }
+
+    .disable {
+      pointer-events: none;
+      opacity: 0.6;
+      background-color: $Color_Basic_8;
+      color: white;
+    }
+
+    h1 {
+      color: $Color_Title_2;
+      font-size: $Size_Title;
+
+      @media (max-width: 575px) {
+        font-size: $Size_Title-Mobile;
+      }
+    }
+
+
+  }
+
+  .define_mode {
+    background: $Color_Basic_9;
+    margin-top: 0;
+    color: $Color_Title_2;
+    font-size: $Size_Title;
+    @media (max-width: 575px) {
+      font-size: $Size_Title_Mobile;
+    }
+  }
+
+  .imageUser {
+    width: 100%;
+    @media (max-width: 575px) {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+  }
+}

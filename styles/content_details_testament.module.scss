@@ -1,0 +1,33 @@
+@import "styles/Sass/color";
+
+@import "styles/Sass/size";
+.content_details_testament {
+  transition: .3s ease-in-out;
+  background: $Color_Basic_2;
+  padding: 30px 20px;
+  button{
+    transition: .3s ease-in-out;
+    background-color: $Color_Basic_3;
+  &:hover{
+    background-color: $Color_Basic_8;
+  }
+  }
+  .header_details_testament {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  .testament_user{
+    background: white;
+    font-size: 20px;
+    padding: 20px;
+
+    line-height: 36px;
+  }
+}

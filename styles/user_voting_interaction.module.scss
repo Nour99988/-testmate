@@ -1,0 +1,47 @@
+
+@import "styles/Sass/color";
+
+@import "styles/Sass/size";
+
+
+// do not forget fix scroll
+
+.content_user_voting_interaction{
+
+  position: relative;
+  h1{
+    color: $Color_Title_2;
+    font-size:$Size_Title;
+    margin-top: 0;
+    @media (max-width: 575px) {
+      font-size:  $Size_Title_Mobile
+    }
+  }
+  p{
+    color: $Color_Title_2;
+    font-size: $Size_text;
+
+  }
+
+
+  .interaction_user{
+    overflow-y: scroll;
+    max-height: 620px;
+    padding: 0 10px 0 0;
+    .no_interaction{
+      color: $Color_Basic_8;
+      font-size: $Size_text;
+      padding: 20px;
+      text-align: center;
+
+    }
+
+
+  }
+
+
+}
+
+
+
+
